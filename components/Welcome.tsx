@@ -33,7 +33,7 @@ const Welcome: React.FC<WelcomeProps> = ({ content, onStart }) => {
         {/* Start Button */}
         <button
           onClick={onStart}
-          className="w-full sm:w-auto px-10 py-4 bg-turkish-red hover:bg-turkish-darkRed text-white font-semibold text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-turkish-red/30"
+          className="w-full sm:w-auto px-10 py-4 bg-turkish-red hover:bg-turkish-darkRed text-white font-semibold text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200 focus:outline-hidden focus:ring-4 focus:ring-turkish-red/30"
         >
           {content.welcome.startButton}
         </button>
@@ -45,7 +45,7 @@ const Welcome: React.FC<WelcomeProps> = ({ content, onStart }) => {
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-turkish-red via-white to-turkish-red opacity-50"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-1 bg-linear-to-r from-turkish-red via-white to-turkish-red opacity-50"></div>
     </div>
   );
 };

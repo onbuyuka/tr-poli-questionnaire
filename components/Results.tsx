@@ -104,7 +104,7 @@ const Results: React.FC<ResultsProps> = ({ results, content, language, onRestart
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
                       <span
-                        className="w-3 h-3 rounded-full flex-shrink-0"
+                        className="w-3 h-3 rounded-full shrink-0"
                         style={{ backgroundColor: result.party.color }}
                       />
                       <h3 className="font-semibold text-slate-800 truncate">
@@ -128,7 +128,7 @@ const Results: React.FC<ResultsProps> = ({ results, content, language, onRestart
                   </div>
 
                   {/* Match Percentage */}
-                  <div className="text-right flex-shrink-0">
+                  <div className="text-right shrink-0">
                     <span className="text-2xl font-bold" style={{ color: result.party.color }}>
                       {result.matchPercentage}%
                     </span>

@@ -32,7 +32,7 @@ AKP · CHP · İYİ Parti · MHP · DEM · TİP · Zafer Partisi · DEVA · Gele
 
 - React 19 + TypeScript
 - Vite
-- Tailwind CSS
+- Tailwind CSS 4
 - Hosted on GitHub Pages
 
 ## Development
@@ -50,6 +50,9 @@ npm run deploy    # Build & deploy to GitHub Pages
 patch version updates are grouped; major updates stay separate. Security updates
 run independently when GitHub detects a vulnerable dependency. Validate updates
 with a type-check and production build before the separate `npm run deploy` step.
+
+Tailwind CSS 4 requires Safari 16.4+, Chrome 111+ or Firefox 128+. Its theme and
+compatibility styles are maintained in `index.css`.
 
 ## Disclaimer
 

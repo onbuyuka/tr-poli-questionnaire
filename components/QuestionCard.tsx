@@ -49,7 +49,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
 
       {/* Question Text */}
       <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 mb-6">
-        <h2 className="text-xl md:text-2xl font-semibold text-slate-800 text-center leading-relaxed">
+        <h2 className="text-xl md:text-2xl font-semibold text-slate-800 text-center leading-relaxed md:leading-8">
           {questionText}
         </h2>
       </div>
