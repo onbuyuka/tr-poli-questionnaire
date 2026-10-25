@@ -44,6 +44,13 @@ npm run build     # Production build
 npm run deploy    # Build & deploy to GitHub Pages
 ```
 
+## Dependency maintenance
+
+[Dependabot](.github/dependabot.yml) checks npm dependencies weekly. Minor and
+patch version updates are grouped; major updates stay separate. Security updates
+run independently when GitHub detects a vulnerable dependency. Validate updates
+with a type-check and production build before the separate `npm run deploy` step.
+
 ## Disclaimer
 
 This application is independent and has no affiliation with any political party. Party positions are approximate assessments based on publicly stated programs and may not be exact. This tool is for informational purposes only.

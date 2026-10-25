@@ -1,5 +1,5 @@
 import React from 'react';
-import { Language, AppContent } from '../types';
+import { AppContent } from '../types';
 
 interface WelcomeProps {
   content: AppContent;

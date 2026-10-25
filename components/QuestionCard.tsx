@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Question, Answer, AppContent, QuestionCategory } from '../types';
+import React from 'react';
+import { Question, Answer, AppContent } from '../types';
 
 interface QuestionCardProps {
   question: Question;
