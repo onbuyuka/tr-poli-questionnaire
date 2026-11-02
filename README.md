@@ -61,3 +61,12 @@ corporate caches cannot make Dependabot depend on inaccessible feeds.
 ## Disclaimer
 
 This application is independent and has no affiliation with any political party. Party positions are approximate assessments based on publicly stated programs and may not be exact. This tool is for informational purposes only.
+
+## License
+
+The original code and documentation in this repository are licensed under the
+[MIT License](LICENSE).
+
+Third-party code, dependencies, data, images, and other content retain their own
+licenses and terms and are not covered by this license. No trademark rights are
+granted.
